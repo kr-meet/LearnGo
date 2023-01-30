@@ -189,11 +189,4 @@ func closure() func(string) {
 	return func(s string) {
 		fmt.Println(s)
 	}
-
-	// return f("dsf")
-}
-
-func f(s string) {
-	fmt.Println(s)
-	return
 }
